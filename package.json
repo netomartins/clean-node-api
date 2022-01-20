@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "git-commit-msg-linter": "^3.2.8"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.10",
+    "D": "^1.0.0",
+    "typescript": "^4.5.4"
   }
 }
